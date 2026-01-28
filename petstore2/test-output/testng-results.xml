@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-23T22:29:02 IST" name="Default suite" finished-at="2026-01-23T22:29:31 IST" duration-ms="29773">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-01-23T22:29:02 IST" name="Default test" finished-at="2026-01-23T22:29:31 IST" duration-ms="29773">
+      <class name="runner.PetStoreRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:02 IST" name="setUpClass" finished-at="2026-01-23T22:29:03 IST" duration-ms="1131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c0fefac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:11 IST" duration-ms="8653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete by valid petid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:13 IST" duration-ms="1649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete by invalid petid(string)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:15 IST" duration-ms="1679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete by invalid petid {pet id not present}"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:16 IST" duration-ms="1637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete by invalid petid {pet id is empty}"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:18 IST" duration-ms="1933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete by invalid petid {pet id is special charecters}"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:21 IST" duration-ms="3105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete by petid details and add extra key value pair"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:25 IST" duration-ms="3288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete request without "api_key" header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:28 IST" duration-ms="3366" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete with valid api_key but invalid petId"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status Code Mismatch! expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status Code Mismatch! expected [404] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at stepDefinition.StepDefinition.response_code_check(StepDefinition.java:303)
+at ✽.The response status code should be 404(file:///C:/Users/karth/eclipse-workspace/petstore2/src/test/resources/feature/petstore.feature:364)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-23T22:29:31 IST" duration-ms="3170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete same petId twice (concurrency/replay)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pet Store API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.PetStoreRunner@399c4be1]" started-at="2026-01-23T22:29:31 IST" name="tearDownClass" finished-at="2026-01-23T22:29:31 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.PetStoreRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
