@@ -4,8 +4,8 @@ pipeline {
     tools {
         // These names must match what you set up in Jenkins "Global Tool Configuration"
         // If you haven't named them yet, use 'maven' or the specific name you gave.
-        maven 'Maven' 
-        jdk 'Java'
+        maven 'maven' 
+        jdk 'JDK'
     }
 
     stages {
