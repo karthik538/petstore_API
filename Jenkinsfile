@@ -15,9 +15,10 @@ pipeline {
 
         stage('Build & Test') {
             steps {
-                // This tells Jenkins to go inside the 'petstore2' folder
                 dir('petstore2') {
-                    bat 'mvn clean test'
+                    // Update this path to match YOUR laptop's actual path
+                    // NOTICE: Use double slashes \\ for Windows paths
+                    bat 'mvn clean test -Dmaven.repo.local="C:\\Users\\karth\\.m2\\repository"'
                 }
             }
         }
@@ -25,8 +26,8 @@ pipeline {
 
     post {
         always {
-            // We also need to tell Jenkins where to find the reports inside that folder
             junit 'petstore2/target/surefire-reports/*.xml'
         }
     }
 }
+C:\Users\karth\.m2\repository
