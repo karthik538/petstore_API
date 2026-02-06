@@ -30,4 +30,3 @@ pipeline {
         }
     }
 }
-C:\Users\karth\.m2\repository
